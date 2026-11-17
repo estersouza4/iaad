@@ -1,6 +1,7 @@
 # 🤖 Sistema de Gerenciamento — Torneio de Robótica (IAAD)
 
 Aplicação web interativa desenvolvida em **Python (Dash + Plotly)** integrada a um banco de dados relacional **MySQL**, acompanhada de um módulo comparativo em **NoSQL (MongoDB)** para a disciplina de **Introdução ao Armazenamento e Análise de Dados (IAAD)**.
+
 ---
 
 ## 👥 Integrantes da Equipe
@@ -11,6 +12,7 @@ Aplicação web interativa desenvolvida em **Python (Dash + Plotly)** integrada 
 * Paulo Ricardo Ferreira de França
 * Pedro Henrique de Oliveira Mota
 * Riquelme Ruan Bezerra de Oliveira
+
 ---
 
 ## 📋 Funcionalidades
@@ -43,6 +45,7 @@ iaad/
 ├── gerenciamento_ui.py            # Interface e callbacks compartilhados de gerenciamento
 ├── torneio_robotica_completo.sql  # Script SQL completo (DDL, DML, Trigger e Procedure)
 ├── torneiorobotica.mwb            # Modelo Entidade-Relacionamento (MySQL Workbench)
+├── requirements.txt               # Dependências Python do projeto
 └── README.md                      # Documentação do projeto
 ```
 
@@ -104,7 +107,7 @@ venv\Scripts\activate
 # Linux/Mac:
 source venv/bin/activate
 
-pip install dash plotly mysql-connector-python pymongo
+pip install -r requirements.txt
 ```
 
 ### 3. Configuração do Banco Relacional (MySQL)

@@ -1,0 +1,4 @@
+dash
+plotly
+mysql-connector-python
+pymongo

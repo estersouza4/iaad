@@ -78,5 +78,4 @@ def gerenciar_integrantes(btn_cad, btn_atualizar, btn_excluir, btn_list, id_int,
         return f"Erro: {str(e)} (Verifique se o ID da Equipe existe!)", dash.no_update
 
 if __name__ == "__main__":
-    # Seguindo o padrão do grupo de usar portas diferentes, rodando na 8053
-    app.run_server(debug=True, port=8053)
+    app.run(debug=False, port=8053)
